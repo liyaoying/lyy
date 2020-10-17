@@ -29,6 +29,8 @@ public class FileController {
 		File fileDir = new File("D:/1-jt/image");
 		if(!fileDir.exists()){
 			fileDir.mkdirs();
+
+
 		}
 		//实现上传文件
 		fileImage.transferTo(new File("D:/1-jt/image/"+fileName));
