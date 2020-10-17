@@ -29,7 +29,7 @@ public class FileController {
 		File fileDir = new File("D:/1-jt/image");
 		if(!fileDir.exists()){
 			fileDir.mkdirs();
-
+		//测试
 
 		}
 		//实现上传文件
