@@ -24,6 +24,7 @@ public class UserController {
 	/**
 	 * 校验用户是否存在
 	 * 跨域请求,返回值需要特殊处理
+	 *1234
 	 */
 	@RequestMapping("/check/{param}/{type}")
 	public JSONPObject checkUser(@PathVariable String param,
