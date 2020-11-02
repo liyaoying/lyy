@@ -61,5 +61,7 @@ public class UserController {
 	public static void main(String[] args) {
 		System.out.println("Dev");
         System.out.println("master");
+		System.out.println("addTest");
+
 	}
 }
