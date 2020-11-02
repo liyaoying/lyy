@@ -57,4 +57,8 @@ public class UserController {
 		}
 		return new JSONPObject(callback,SysResult.ok(userJSON));
 	}
+
+	public static void main(String[] args) {
+		System.out.println("Dev");
+	}
 }
