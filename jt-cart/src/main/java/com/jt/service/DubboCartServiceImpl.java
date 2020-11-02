@@ -17,6 +17,11 @@ public class DubboCartServiceImpl implements DubboCartService{
 	@Autowired
 	private CartMapper cartMapper;
 
+	/**
+	 * 测试提交到master
+	 * @param userId
+	 * @return
+	 */
 	@Override
 	public List<Cart> findCartListByUserId(Long userId) {
 		QueryWrapper<Cart> queryWrapper = new QueryWrapper<>();
