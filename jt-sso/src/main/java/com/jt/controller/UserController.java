@@ -62,5 +62,8 @@ public class UserController {
 		System.out.println("Dev");
         System.out.println("master");
 		System.out.println("test");
+		System.out.println("addTest");
+		System.out.println("addTest-t");
+
 	}
 }
