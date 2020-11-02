@@ -7,6 +7,7 @@ import com.jt.pojo.Item;
 
 
 public class EasyUIData implements Serializable{
+	//序列化
 	private static final long serialVersionUID = 1968115217587984105L;
 	private Integer total;
 	private List<Item> rows;
